@@ -1,0 +1,43 @@
+Thread id:101285888
+transaction:date
+
+result:Sun Dec  2 20:39:03 CST 2018
+
+-------------------------------
+Thread id:101822464
+transaction:date | wc
+
+result:       1       6      29
+
+-------------------------------
+Thread id:101285888
+transaction:ls /etc | wc
+
+result:     118     118    1417
+
+-------------------------------
+Thread id:101822464
+transaction:ls /etc | head
+
+result:afpovertcp.cfg
+afpovertcp.cfg~orig
+aliases
+aliases.db
+apache2
+asl
+asl.conf
+auto_home
+auto_master
+auto_master~orig
+
+-------------------------------
+Thread id:101822464
+transaction:exit
+
+result:DISCONECTING CLIENT
+-------------------------------
+Thread id:101285888
+transaction:exit
+
+result:DISCONECTING CLIENT
+-------------------------------

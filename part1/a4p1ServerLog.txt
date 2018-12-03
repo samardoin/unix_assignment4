@@ -1,0 +1,38 @@
+Thread id:155439104
+transaction:date
+
+result:Sun Dec  2 20:26:23 CST 2018
+
+-------------------------------
+Thread id:155439104
+transaction:date | wc
+
+result:       1       6      29
+
+-------------------------------
+Thread id:155439104
+transaction:ls /etc | wc
+
+result:     118     118    1417
+
+-------------------------------
+Thread id:155439104
+transaction:ls /etc | head
+
+result:afpovertcp.cfg
+afpovertcp.cfg~orig
+aliases
+aliases.db
+apache2
+asl
+asl.conf
+auto_home
+auto_master
+auto_master~orig
+
+-------------------------------
+Thread id:155439104
+transaction:exit
+
+result:DISCONECTING CLIENT
+-------------------------------

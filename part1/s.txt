@@ -1,0 +1,37 @@
+Thread id:11182080
+transaction:ls
+
+result:11182080.txt
+a4p1Client1
+a4p1Client1.c
+a4p1Server
+a4p1Server.c
+makefile
+test
+test.c
+
+-------------------------------
+Thread id:11182080
+transaction:echo "hi"
+
+result:hi
+
+-------------------------------
+Thread id:11182080
+transaction:pwd
+
+result:/Users/samuelardoin/Desktop/CS3377/assignment4/part1
+
+-------------------------------
+Thread id:11718656
+transaction:echo "Heeeelll"
+
+result:Heeeelll
+
+-------------------------------
+Thread id:11182080
+transaction:echo "still"
+
+result:still
+
+-------------------------------

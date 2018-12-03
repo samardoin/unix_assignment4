@@ -1,0 +1,17 @@
+Sun Dec  2 20:26:23 CST 2018
+---------------------
+       1       6      29
+---------------------
+     118     118    1417
+---------------------
+afpovertcp.cfg
+afpovertcp.cfg~orig
+aliases
+aliases.db
+apache2
+asl
+asl.conf
+auto_home
+auto_master
+auto_master~orig
+---------------------
